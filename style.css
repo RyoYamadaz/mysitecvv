@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.offcanvas-body{
+    text-align: left;
+}
+
+.menuhead{
+    background: rgb(225, 236, 255);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.menu-btn{
+    color: #0ea6cc;
+}
+.menu-btn:hover{
+    color: darkblue;
+    text-underline-offset: 4px;
+}
+.menu-btn:focus{
+    border: none;
+    outline: none;
+}
+.dropup{
+    right: 10px;
+    top: 10px;
+}
+
+.cloud-top{
+    right: 10%;
+}
+.cloud-bottom{
+    left: 20%;
+}
+
+.header{
+    padding-top: 120px;
+    background: rgb(225, 236, 255);
+}
+.header h1{
+    font-family: 'Sacramento', fantasy;
+    font-size: 4.4rem;
+    font-weight: bold;
+}
+.header p{
+    font-family: 'Ubuntu';
+}
+.material-icons{
+    vertical-align: sub;
+    font-size: 90%;
+}
+
+
+.middle-container{
+    padding: 0 10% 0 10%;
+}
+.middle-container p{
+    font-family: "Rubik", sans-serif;
+}
+hr{
+    border: dotted #32c7f8 6px ;
+    border-bottom: none;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-pics{
+    border-radius: 100%;
+    width: 50%;
+}
+
+h2{
+    font-weight: bold;
+    color: rgb(0, 145, 255);
+}
+
+.profile{
+    margin: 100px auto;
+}
+.profile-pic{
+    width: 50%;
+    border-radius: 100%;
+}
+
+.touch {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.skills .btn{
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    background: #0ea6cc;
+}
+.skills .btn:hover{
+    background: #08667e;
+}
+.skills .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.bottom-container{
+    background: #0ea6cc;
+    padding: 20px 0 30px;
+    color: rgb(188, 216, 247);
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.bottom-container a{
+    color: rgb(188, 216, 247);
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color: white;
+}
